@@ -5,6 +5,7 @@ import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
 import * as MdIcons from "react-icons/md";
 import * as SlIcons from "react-icons/sl";
+import * as RiIcons from "react-icons/ri";
 
 
 export const SidebarData = [
@@ -23,25 +24,27 @@ export const SidebarData = [
   },
 
   {
+    title: "Physical health score",
+    path: "/Wishlisr",
+    icon: <MdIcons.MdHealthAndSafety />,
+    cName: "nav-text"
+  },
+
+  {
+    title: "Mental Health Score",
+    path: "/",
+    icon: <RiIcons.RiMentalHealthFill />,
+    cName: "nav-text"
+  },
+
+  {
     title: "Reports",
     path: "/reports",
     icon: <IoIcons.IoIosPaper />,
     cName: "nav-text"
   },
 
-  {
-    title: "Wishlist",
-    path: "/Wishlisr",
-    icon: <MdIcons.MdFavorite />,
-    cName: "nav-text"
-  },
   
-  {
-    title: "Calender",
-    path: "/",
-    icon: <SlIcons.SlCalender />,
-    cName: "nav-text"
-  },
   {
     title: "Support",
     path: "/support",
